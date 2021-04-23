@@ -24,7 +24,12 @@ class contador:
   c = 0
   # Se defeine el metodo incremento:
   def incremento(self):
-    # Se llma a la clase, apra que le agrege un valor nuevo a "c" (cada ves que se necesario)
+    '''
+    Este metodo permite ir añadiendo a la variable c
+    el valor de 1, es decir aumenta de uno en uno 
+    cada vez que se llama incremento.
+    '''
+    # Se llma a la clase, para que le agrege un valor nuevo a "c" (cada ves que se necesario)
     contador.c += 1
 
 ## Llamamos al objeto incremento():
